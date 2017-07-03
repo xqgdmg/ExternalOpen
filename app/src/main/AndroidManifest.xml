@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="externalopen.libin.com.externalopen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".ProcessActivity">
+
+            <!-- 要想在别的App上能成功调起App，必须添加intent过滤器 -->
+            <intent-filter>
+
+                <!-- 协议部分，名字随便设置 -->
+                <data
+                    android:host="open.app.example"
+                    android:scheme="external" />
+                <!-- 下面这几行也必须得设置 -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebViewActivity"></activity>
+    </application>
+
+</manifest>

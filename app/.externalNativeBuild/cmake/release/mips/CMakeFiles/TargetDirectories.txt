@@ -1,0 +1,3 @@
+H:/chromeDownload/ExternalOpen/ExternalOpen/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/native-lib.dir
+H:/chromeDownload/ExternalOpen/ExternalOpen/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+H:/chromeDownload/ExternalOpen/ExternalOpen/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir

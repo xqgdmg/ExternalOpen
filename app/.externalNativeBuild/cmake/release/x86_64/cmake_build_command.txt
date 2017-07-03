@@ -1,0 +1,15 @@
+Executable : E:\Android\sdk3\cmake\3.6.3155560\bin\cmake.exe
+arguments : 
+-HH:\chromeDownload\ExternalOpen\ExternalOpen\app
+-BH:\chromeDownload\ExternalOpen\ExternalOpen\app\.externalNativeBuild\cmake\release\x86_64
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=E:\Android\sdk3\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=H:\chromeDownload\ExternalOpen\ExternalOpen\app\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=E:\Android\sdk3\cmake\3.6.3155560\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=E:\Android\sdk3\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_PLATFORM=android-21
+-DCMAKE_CXX_FLAGS=
+jvmArgs : 
+

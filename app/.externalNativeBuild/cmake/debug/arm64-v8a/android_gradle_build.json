@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "H:/chromeDownload/ExternalOpen/ExternalOpen/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\Android\\sdk3\\cmake\\3.6.3155560\\bin\\cmake.exe --build H:\\chromeDownload\\ExternalOpen\\ExternalOpen\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "E:\\Android\\sdk3\\cmake\\3.6.3155560\\bin\\cmake.exe --build H:\\chromeDownload\\ExternalOpen\\ExternalOpen\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=E:/Android/sdk3/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/sdk3/ndk-bundle/platforms/android-21/arch-arm64  -Dnative_lib_EXPORTS -isystem E:\\Android\\sdk3\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\sdk3\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\Android\\sdk3\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "H:/chromeDownload/ExternalOpen/ExternalOpen/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "H:/chromeDownload/ExternalOpen/ExternalOpen/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "H:/chromeDownload/ExternalOpen/ExternalOpen/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "1127840699"
+		}
+	},
+	"toolchains" : 
+	{
+		"1127840699" : 
+		{
+			"cCompilerExecutable" : "E:/Android/sdk3/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Android/sdk3/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
